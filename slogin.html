@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>login</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="http://127.0.0.1:5500/home.html" class="logo">WaveWhisper</a>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="image" alt="">
+         <h3 class="name">Name</h3>
+         <p class="role">Age</p>
+   
+         <div class="flex-btn">
+            <a href="slogin.html" class="option-btn">login</a>
+            <a href="sregister.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+
+
+<section class="form-container">
+
+   <form onsubmit="loginUser(event)">
+      <h3>login now</h3>
+      <p>Email <span>*</span></p>
+      <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="box">
+      <p>Password <span>*</span></p>
+      <input type="password" name="pass" placeholder="enter your password" required maxlength="20" class="box">
+      <input type="submit" value="Login" name="submit" class="btn">
+      <a href="sregister.html" class="btn">register</a>
+      
+   </form>
+
+</section>
+<script src="slogin.js"></script>
+
+<footer class="footer">
+
+   Help | FAQ | Privacy Policy and Terms of Service
+
+</footer>
+
+</body>
+</html>
