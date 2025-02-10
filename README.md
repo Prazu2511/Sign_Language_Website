@@ -38,7 +38,7 @@ The platform includes pages for login, registration, home, actions, and phrases.
 
 ---
 
-## Folder Structure
+
 
 
 
