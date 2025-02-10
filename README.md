@@ -40,21 +40,7 @@ The platform includes pages for login, registration, home, actions, and phrases.
 
 ## Folder Structure
 
-```plaintext
-WaveWhisper/
-|-- login.html          # Login page
-|-- register.html       # Registration page
-|-- home.html           # Home page
-|-- actions.html        # Actions learning page
-|-- phrases.html        # Phrases learning page
-|-- css/
-|   |-- styles.css      # Main CSS file for styling
-|-- js/
-|   |-- scripts.js      # Main JavaScript file
-|-- assets/
-|   |-- images/         # Images used in the website
-|   |-- icons/          # Icons for UI
-```
+
 
 ---
 
