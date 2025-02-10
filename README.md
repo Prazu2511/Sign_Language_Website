@@ -40,11 +40,6 @@ The platform includes pages for login, registration, home, actions, and phrases.
 
 
 
-
-
----
-
-
 ## How to Contribute
 
 1. Fork the repository.
